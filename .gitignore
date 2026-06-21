@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Jupyter
+*.nbconvert.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit DB credentials
+.env
+*.env
+config.ini
+secrets.*
+
+# Local generated Excel exports (keep only curated reports/)
+player_profiles.xlsx
